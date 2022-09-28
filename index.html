@@ -1,40 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+  <!-- Font -->
   <link rel="stylesheet" href="styles.css">
   <title>Admin Dashboard</title>
 </head>
+
 <body>
   <div class="container">
-    <div class="sidebar">
-      <div class="sidebar-logo-section">
-        <div class="sidebar-logo">
-          <img src="/assets/image-filter-black-white.png" alt="">
+    <!-- Navigation Section (left/sidebar) -->
+    <nav>
+      <div class="sidebar">
+        <div class="sidebar-head">
+          <div class="test">
+            <div class="head-logo">
+              <img src="/assets/image-filter-black-white.png" alt="">
+            </div>
+            <div class="head-title">
+              <p>Dashboard</p>
+            </div>
+          </div>
         </div>
-        <div class="sidebar-title" >
-          <p>Dashboard</p>
+
+        <div class="sidebar-top">
+          <div class="flex-box">
+            <div class="sidebar-cell-logo">
+              <img src="/assets/home.png" alt="">
+            </div>
+            <div class="sidebar-cell">
+              <a href="#">Home</a>
+            </div>
+          </div>
+          <div class="flex-box">
+            <div class="sidebar-cell-logo">
+              <img src="/assets/account.png" alt="">
+            </div>
+            <div class="sidebar-cell">
+              <a href="#">Profile</a>
+            </div>
+          </div>
+          <div class="flex-box">
+            <div class="sidebar-cell-logo">
+              <img src="/assets/message-settings.png" alt="">
+            </div>
+            <div class="sidebar-cell">
+              <a href="#">Messages</a>
+            </div>
+          </div>
+          <div class="flex-box">
+            <div class="sidebar-cell-logo">
+              <img src="/assets/clipboard-text-clock.png" alt="">
+            </div>
+            <div class="sidebar-cell">
+              <a href="#">History</a>
+            </div>
+          </div>
+          <div class="flex-box">
+            <div class="sidebar-cell-logo">
+              <img src="/assets/note-alert.png" alt="">
+            </div>
+            <div class="sidebar-cell">
+              <a href="#">Tasks</a>
+            </div>
+          </div>
+          <div class="flex-box">
+            <div class="sidebar-cell-logo">
+              <img src="/assets/account-group.png" alt="">
+            </div>
+            <div class="sidebar-cell">
+              <a href="#">Communities</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="sidebar-bottom">
+          <div class="flex-box">
+            <div class="sidebar-cell-logo">
+              <img src="/assets/cog.png" alt="">
+            </div>
+            <div class="sidebar-cell">
+              <a href="#">Settings</a>
+            </div>
+          </div>
+          <div class="flex-box">
+            <div class="sidebar-cell-logo">
+              <img src="/assets/comment-question.png" alt="">
+            </div>
+            <div class="sidebar-cell">
+              <a href="#">Support</a>
+            </div>
+          </div>
+          <div class="flex-box">
+            <div class="sidebar-cell-logo">
+              <img src="/assets/deathly-hallows.png" alt="">
+            </div>
+            <div class="sidebar-cell">
+              <a href="#">Privacy</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </nav>
+
+    <!-- Header Section (top) -->
+    <div class="header">
+      <div class="header-top">
+        <div class="search">
+          <div class="search-logo">
+            <img src="/assets/magnify.png" alt="">
+          </div>
+          <div class="search-bar">
+            <input type="search">
+          </div>
+        </div>
+        <div class="profile">
+          <div class="notification-logo">
+            ASD
+          </div>
+          <div class="profile-picture">
+
+          </div>
+          <div class="profile-name">
+
+          </div>
         </div>
       </div>
-
-      <div class="sidebar-top">
-        <div class="sidebar-cell"><a href="#">Home</a></div>
-        <div class="sidebar-cell-logo"></div>
-        <div class="sidebar-cell"><a href="#">Profile</a></div>
-        <div class="sidebar-cell-logo"></div>
-        <div class="sidebar-cell"><a href="#">Messages</a></div>
-        <div class="sidebar-cell-logo"></div>
-        <div class="sidebar-cell"><a href="#">History</a></div>
-        <div class="sidebar-cell-logo"></div>
-        <div class="sidebar-cell"><a href="#">Tasks</a></div>
-        <div class="sidebar-cell-logo"></div>
-        <div class="sidebar-cell"><a href="#">Communities</a></div>
-        <div class="sidebar-cell-logo"></div>
-      </div>
-
+      <div class="header-bottom">BOTTOM</div>
     </div>
+
+
   </div>
 </body>
+
 </html>
